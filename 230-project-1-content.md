@@ -1,11 +1,12 @@
-Homepage
-Overview
-Proposal
-Documentation
-Project
+1. Homepage
+2. Overview
+3. Proposal
+4. Documentation
+5. Project
+
 # SprintCrazy
 ## Welcome to SprintCrazy!
-![main_image](media/overview_image.jpg "Overview Image")
+![main_image](https://github.com/anoopix/IGME230/tree/master/project1/media/overview_image.jpg "Overview Image")
 In SprintCrazy, the evil Dr. Wheelan has created a giant laser to destroy
 our beloved hero, Gustav XVI. As Gus, you the player must avoid the laser
 and sprint off. Collect coins to score points and gain powerups!
@@ -49,8 +50,8 @@ can also collect cans of caviar. If they get caviar, then they get invincibility
 for 15 seconds, and the player will not have to worry about controlling Gus during this time.
 
 ### Screenshots
-![first_concept_art](media/proposal_1.jpg "Proposal Image 1")
-![second_concept_art](media/proposal_2..jpg "Proposal Image 2")
+![first_concept_art](https://github.com/anoopix/IGME230/tree/master/project1/media/proposal_1.jpg "Proposal Image 1")
+![second_concept_art](https://github.com/anoopix/IGME230/tree/master/project1/media/proposal_2..jpg "Proposal Image 2")
 
 ### Other
 I know that this is a relatively simple concept, but I’m planning on building onto it.
