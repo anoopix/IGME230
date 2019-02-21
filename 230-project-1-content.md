@@ -51,7 +51,7 @@ for 15 seconds, and the player will not have to worry about controlling Gus duri
 
 ### Screenshots
 ![first_concept_art](https://github.com/anoopix/IGME230/blob/master/project1/media/proposal_1.jpg "Proposal Image 1")
-![second_concept_art](https://github.com/anoopix/IGME230/blob/master/project1/media/proposal_2..jpg "Proposal Image 2")
+![second_concept_art](https://github.com/anoopix/IGME230/blob/master/project1/media/proposal_2.jpg "Proposal Image 2")
 
 ### Other
 I know that this is a relatively simple concept, but I’m planning on building onto it.
