@@ -3,12 +3,12 @@
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.4fr 2.2fr 0.4fr;
+    grid-template-rows: 255px 2.2fr 255px;
     grid-template-areas: "titlebar titlebar titlebar titlebar" "menu main main main" "footer footer footer footer";
 }
 
 body {
-    background-color: lightseagreen;
+    background-color: rgb(0, 88, 122);
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -27,32 +27,38 @@ body {
     -6px -3px 0 yellow,
     5px 5px 0 #000;
     margin-bottom: 10px;
-
 }
 
 .menu {
     grid-area: menu;
     display: flex;
     flex-direction: column;
-    background-color: rgb(255, 255, 166);
+    background-color: rgb(18, 88, 0);
     padding-top: 5px;
     padding-bottom: 5px;
     padding-right: 30px;
     float: left;
-    height: auto;
+    height: 10em;
+    border: 1em solid rgb(95, 138, 84);
+    font-size: 28px;
+}
+
+ul {
+    list-style-type: none;
 }
 
 .content {
     grid-area: main;
-    background-color: rgb(0, 94, 131);
+    background-color: rgb(44, 111, 255);
     float: right;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 5px;
     margin-left: 10px;
+    font-size: 24px;
 }
 
-#gitlink {
+#git_link {
     grid-area: footer;
     background-color: forestgreen;
     padding-top: 2em;
@@ -78,7 +84,7 @@ body {
 
 h2 {
     font-family: 'Baloo', cursive;
-    color: gray;
+    color: rgb(177, 177, 177);
 }
 
 h3 {
@@ -87,26 +93,71 @@ h3 {
 }
 
 img {
-    width: 50%;
+    width: 80%;
 }
 
 p {
     font-family: 'Baloo', cursive;
-    color: white;
-}
-
-a:link {
     color: yellow;
 }
 
-a:visited {
+a.foot_link:link {
     color: yellow;
 }
 
-a:hover {
+a.foot_link:visited {
+    color: yellow;
+}
+
+a.foot_link:hover {
     color: orange;
 }
 
-a:active {
+a.foot_link:active {
     color: red;
+}
+
+a.side_link:link {
+    color: white;
+}
+
+a.side_link:visited {
+    color: white;
+}
+
+a.side_link:hover {
+    color: white;
+}
+
+a.side_link:active {
+    color: white;
+}
+
+@media only screen and (max-width: 480px) {
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 210px 0.1fr 2.2fr 300px;
+        grid-template-areas: "titlebar" "menu" "main" "footer";
+    }
+
+    ul {
+        text-align: center;
+    }
+
+    body, .content {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .menu {
+        margin-bottom: 10px;
+    }
+
+    p {
+        font-size: 18px;
+    }
 }
